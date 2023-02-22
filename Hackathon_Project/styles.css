@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 1% 5%;
+    font: optional;
+    font-size: 20px;
+}
+#logo-img{
+    width: 5rem;
+    height: 5rem;
+    float: left;
+}
+.navabar{
+    display: flex;
+    flex-direction: row;
+}
+#left-nav{
+    float: left;
+    padding: 2rem;
+}
+#right-nav{
+    float: right;
+    padding: 2rem;
+}
+.main-heading{
+    text-align: center;
+    margin: 3rem;
+    padding: 2rem;
+}
+button{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(167, 164, 164);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+a{
+    color: white;
+    text-decoration: none;  
+}
+
+.main-btns{
+    background-color: black;
+    border: green 2px solid;
+    border-radius: 0.5em;
+    padding: 8px;
+    margin: 5px;
+}
+.main-btns:hover{
+    background-color: black;
+    padding: 0.6rem;
+}
+
+/* LOGIN + SIGN-UP */
+
+.login, .sign-up{
+    justify-content: center;
+    margin:6rem 25% 1rem 25% ;
+}
+.login-form{
+    padding: 2rem;
+}
+.login-items, .sign-up-items{
+    margin: 0.3rem;
+    padding: 0.5em 1.5rem;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+}
