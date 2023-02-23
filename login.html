@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>LOGIN</title>
+</head>
+<body class="login_body">
+    <div class="login">
+        <form action="login.php" method="POST" class="login-form">
+            <h1 id-login-heading>Sign In</h1>
+            <label>Email</label><br>
+            <input class="login-items" type="email" name="Email"><br>
+            <label>Password</label><br>
+            <input class="login-items" type="password" name="password" ><br>
+            <input type="checkbox"><label style="padding-right: 30px;">Remember Me</label>
+            <a href="#">Forgot Password</a><br>
+            <button class="login-items" class="login-btn" type="submit" name="submit">Sign In</button>
+            <div id="google-signin-button"><button class="login-items" class="login-btn" name="Sign In With Google">Sign In With Google</button>
+            </div>
+
+            <p>Don't have an account? <a href="sign_up.html">Sign Up</a></p>
+            <script src="index.js"></script>
+        </form>
+    </div>
+</body>
+</html>

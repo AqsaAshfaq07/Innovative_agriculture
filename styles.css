@@ -1,0 +1,117 @@
+body{
+    background-color: rgba(2, 43, 2, 0.822);
+}
+.main-content{
+    background-image: url('pexels-pixabay-247599.jpg');
+    background-size: cover;
+    color: white;
+    margin: 2%;
+    margin-bottom: 0%;
+    max-height: fit-content;
+    justify-content: center;
+    font-size: large;
+    padding: 1% 5% 8% 5%;
+}
+#logo-img{
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    float: left;
+}
+.navabar{
+    display: flex;
+    flex-direction: row;
+    text-decoration-color: green;
+}
+#left-nav{
+    float: left;
+    padding: 1.5rem;
+}
+#right-nav{
+    float: right;
+    padding: 1.5rem;
+}
+.main-heading{
+    text-align: center;
+    margin: 3rem;
+    padding: 2rem;
+}
+/* .title{
+    color: green;
+} */
+a{
+    color: white;
+    text-decoration: none;  
+}
+.nav-btn{
+    background-color: white;
+    color: black;
+}
+button{
+    background-color: white;
+    color: black;
+    border: solid white 2px;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+.nav-item:hover, button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+.main-btns{
+    background-color: black;
+    border: green 2px solid;
+    border-radius: 0.5em;
+    padding: 8px;
+    margin:1rem 0 0 11%;
+}
+.main-btns:hover{
+    background-color: black;
+    padding: 0.6rem;
+}
+
+/* LOGIN + SIGN-UP */
+
+.login, .sign-up, .about, .products{
+    justify-content: center;
+    margin:6rem 25% 1rem 25% ;
+}
+.login-form, .sign_up_form, .products-form{
+    padding: 2rem;
+    background-color: rgba(2, 43, 2, 0.822);
+    color: white;
+    width: 350px;
+    height: max-content;
+    margin-left: 5%;
+}
+.login-items, .sign-up-items, .about-item, .products-items, .company-items,.support-items{
+    width: 70%;
+    margin: 0.3rem;
+    padding: 0.5em 1.5rem;
+    border-radius: 12px;
+    background-color: rgba(2, 43, 2, 0.822);
+    box-shadow: none;
+    color: white;
+}
+.about-item, .products-items, .company-items,.support-items{
+    margin: 1rem 0 0 3rem;
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    border-radius: 0.5em;
+    padding: 15px;
+    margin-left: 50%;
+}
+.login_body, .sign-up_body, .about_body, .company_body, .support_body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.products_body{
+    background-image: url('pexels-spacex-23789.jpg');
+    background-size: cover;
+}
